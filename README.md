@@ -13,3 +13,8 @@ npx hardhat node
 node scripts/sample-script.js
 npx hardhat help
 ```
+
+# Result After Optimization
+
+![socket](https://user-images.githubusercontent.com/90610801/170866103-fc795680-0593-4b72-9b8c-a7b352daa3f0.jpg)
+
