@@ -245,7 +245,7 @@ contract Registry_1 is Ownable {
             revert EmptyInput();
         }
         uint256[] memory _routeIds = new uint256[](_routes.length);
-        for (uint256 i ; i < _routes.length; i++) {
+        for (uint256 i ; i < _routes.length;) {
             if(_routes[i].route == address(0))
             {
                 revert Address0Provided();
